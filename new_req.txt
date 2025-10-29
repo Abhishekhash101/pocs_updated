@@ -1,0 +1,16 @@
+# requirements.txt
+
+streamlit>=1.30.0,<1.40.0 # Core app framework
+numpy==2.2.4            # Specific version for compatibility (OpenCV, Scipy)
+scipy>=1.10.0           # Signal processing, optimization
+Pillow==10.3.0          # Specific version for compatibility (Streamlit)
+soundfile>=0.12.0       # Reading/writing audio files
+matplotlib>=3.7.0       # Plotting graphs
+opencv-python-headless>=4.8.0 # Image/video processing (includes cv2)
+imageio>=2.30.0         # Reading/writing images/video (for GIFs, video audio)
+imageio-ffmpeg>=0.4.8   # Plugin for imageio to handle video codecs
+streamlit-drawable-canvas>=0.9.0 # For the drawing input
+scikit-image>=0.20.0    # For SSIM calculation (skimage.metrics)
+numexpr>=2.8.0          # For fast numerical expression evaluation (Equation input)
+streamlit-webrtc>=0.47.0 # For real-time audio input/output
+av>=11.0.0              # Required by streamlit-webrtc for audio/video frames
